@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+linkedin_bot/__pycache__/
+linkedin_bot/cookies.json
+linkedin_bot/bot_log.json
+phantombuster_export.csv
