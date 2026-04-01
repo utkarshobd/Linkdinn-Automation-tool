@@ -2,6 +2,8 @@
 
 Automates finding startup founders from a VC portfolio and sending them personalized LinkedIn connection requests.
 
+📹 **[Watch Demo](https://drive.google.com/drive/folders/1tMw4kM6kQjawLaDL7vKRADl6GAxSKBDR?usp=drive_link)**
+
 ---
 
 ## How It Works — Big Picture
