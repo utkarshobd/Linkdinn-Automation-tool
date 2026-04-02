@@ -1,6 +1,6 @@
 import os
 
-SERPAPI_KEY = os.getenv("SERPAPI_KEY", "key")
+SERPAPI_KEY = os.getenv("SERPAPI_KEY", "f5my3PsseET4Ba9aRGFsAhDE")
 
 # Set to a specific company name to only process that one, or None for all
 TARGET_COMPANY = "WorkDuck"
