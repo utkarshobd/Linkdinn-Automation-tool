@@ -1,7 +1,7 @@
 import os
 
-LINKEDIN_EMAIL = os.getenv("LINKEDIN_EMAIL", "freszen01@gmail.com")
-LINKEDIN_PASSWORD = os.getenv("LINKEDIN_PASSWORD", "`1234567890-=")
+LINKEDIN_EMAIL = os.getenv("LINKEDIN_EMAIL", "")
+LINKEDIN_PASSWORD = os.getenv("LINKEDIN_PASSWORD", "")
 
 # Safety limits
 MAX_CONNECTS_PER_DAY = 10
