@@ -34,7 +34,7 @@ MUTUALS_FIELDS = ["name", "linkedin_url", "mutual_with", "message", "status"]
 
 # Set to a founder name to process only that founder's mutuals
 # Set to None to process ALL founders
-TARGET_FOUNDER = "UTKARSH TIWARI"  # Example: "Siddharth Maheshwari" or None
+TARGET_FOUNDER = "Siddharth Maheshwari"  # Example: "Siddharth Maheshwari" or None
 
 # ── message template for mutuals ───────────────────────────────────────────────
 MUTUAL_MESSAGE_TEMPLATE = (
