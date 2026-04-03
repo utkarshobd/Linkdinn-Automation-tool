@@ -125,6 +125,8 @@ def run_scrape_mutuals(page):
 
         if mutuals:
             # Attach message and status before saving
+            # i want to only extract first 10 mutuals
+            mutuals = mutuals[:10]
             for m in mutuals:
                 first_name = m["name"].split()[0] if m["name"] else "there"
                 m["message"] = MUTUAL_MESSAGE_TEMPLATE.format(
@@ -149,7 +151,7 @@ def run_scrape_mutuals(page):
 def run_send_messages(page, context):
     mutuals = _load_mutuals()
     pending = [m for m in mutuals if m.get("status") == "pending" and m.get("linkedin_url")]
-
+    pending = pending[:10]
     if not pending:
         print("[-] No pending mutuals to message.")
         return
